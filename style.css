@@ -1,0 +1,49 @@
+/*GLOBAL STYLES------------------------------------*/
+body {
+	background-color: #fff;}
+*, *:after, *:before {	
+	box-sizing: border-box;}
+
+.container {
+	margin: 0 auto;
+	width: 840px;}
+
+ul {
+	list-style: none;
+	margin: 50px 20px 20px 20px;}
+
+.navigation li {
+	float: left;
+	padding: 10px;
+	margin-right: 5px;
+	border: 1px solid black;
+	position: relative;
+	top: 1px;
+	background-color: #2A2A28;
+	font-family: arial;
+	font-size: 14px;
+	color: #B8B8A3;}
+
+.navigation li.clicked {
+	background-color: white;
+	border-bottom-color: white;}
+
+#content {
+	padding: 20px;
+	border: 1px solid black;}
+
+h1 {
+	font-family: arial;
+	font-size: 24px;
+	font-weight: 500;
+	padding: 5px;}
+
+#content p {
+	padding: 5px;}
+
+#content li {
+	padding: 5px;}
+
+.spacer {
+	float: none;
+	clear: both;}
